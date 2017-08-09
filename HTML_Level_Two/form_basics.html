@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Try out</title>
+  </head>
+  <body>
+    <!-- Exploring forms tag and input and select tag-->
+    <form action="https://www.facebook.com" method ="get">
+      <label for="user_name">User Name</label>
+      <input type="text" id="user_name" name="u_name" placeholder="smple text" required>
+      <label for="passw">Password</label>
+      <input type="password" id="passw"name="p_word" value="" placeholder="password" required>
+      <br>
+      <input type="checkbox" id="choc" name="food" value="1">
+      <label for="choc">Chocolate</label>
+      <br>
+      <input type="checkbox" id="Ice" name="food" value="2">
+      <label for="ice">Ice Cream</label>
+      <br>
+      <input type="checkbox" id="Samosa" name="food" value="3">
+      <label for="Samosa">Samosa</label>
+      <br>
+      <label for="mess">Message</label>
+      <br>
+      <textarea name="message" id="mess" rows="8" cols="80" placeholder="Your text"></textarea>
+      <br>
+      <label for="dt">Are you in a diet?</label>
+      <br>
+      <select name="diet" id="dt">
+        <option value="Atkins diet">Atkins diet</option>
+        <option value="The Zone diet">The Zone diet</option>
+        <option value="Ketogenic diet">Ketogenic diet</option>
+        <option value="Vegetarian diet">Vegetarian diet</option>
+      </select>
+      <br>
+      <p>you go to gym?</p>
+      <label for="a_yes">Yes</label>
+      <input type="radio" id="a_yes" name="gym" value="Yes">
+      <label for="a_no">No</label>
+      <input type="radio" id="a_no" name="gym" value="No">
+      <input type="submit" name="" value="submit">
+    </form>
+
+  </body>
+</html>
